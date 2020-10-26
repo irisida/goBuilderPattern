@@ -25,3 +25,7 @@ Uses a more closed approach to allow a builder to be declared and only the attri
 ![](./assets/builderparameter.png)
 
 ### Functional Builder
+
+applies a FP style to builder, creating a struct with a slice of pointers to a structs modifications. These are passed to a build function that loops across this slice of actions applying them and returning the person that was modified.
+
+![](./assets/builderFunctional.png)
